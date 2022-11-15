@@ -1,0 +1,102 @@
+
+		* {
+			font-family: 'Ubuntu', sans-serif;
+		}
+		
+		body {
+			background-color: #fff; 			
+			text-align: center;			
+			/* margin: 25px; */
+		 }
+		 
+		 .container {
+			background-color: #f1f1f1; 	
+			padding: 15px;
+			text-align: center;			
+		 }
+		 
+		 h1 {
+			color: #2E2E2E;
+		 }
+		 
+		 h2 {
+			color: #2E2E2E;
+			font-size: 14px;
+		 }
+		 
+		 .about h1 {
+		  font-size: 16px;
+		 }
+		 
+		 .about p {
+			color: #A5A5A5;
+			font-weight: 400;
+		 }
+		 
+		 .about {
+			padding: 30px;
+			margin: 30px;
+			background-color: #fff; 
+			border-radius: 0%;
+			text-align: center;
+		 }
+		
+		img.avatar {
+			width:200px;
+			border-radius: 125px;
+			filter: grayscale(1);
+			transition: 0.5s;
+		}
+		
+		img.ico {
+			width:20px;			
+			filter: grayscale(1);
+			transition: 0.5s;
+			
+		}
+		
+		/* img:hover {				
+			filter: grayscale(0);
+			cursor: pointer;
+			border-radius: 50%;
+			box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+		} */
+		
+		.negrito {
+			font-weight: 700;
+		}
+        .gallery{
+            left: 33%;
+            text-align: center;
+            width: 30rem;
+            height: 23rem;
+            position: relative;
+            display: flex;
+            overflow: auto;
+            scroll-snap-type: unset;
+        
+        }
+        
+        .gallery .bookfav {
+            
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            position: sticky; left: 0;
+            flex-shrink: 0;
+            object-fit: cover;
+            scroll-snap-align: start;
+        }
+
+        .gallery .bookfav:hover{
+            width: 200px;
+            height: 200px;
+            border-radius: 0;
+		
+
+
+        }
+        
+        
+		
+
